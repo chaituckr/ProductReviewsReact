@@ -1,0 +1,22 @@
+{
+  "name": "review_rating_jcp",
+  "version": "1.0.0",
+  "description": "We can review and rate the products, app is responsive to all the devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CKR",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "flux": "^2.1.1",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-stars": "^2.1.0"
+  }
+}

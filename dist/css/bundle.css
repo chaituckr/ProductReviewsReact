@@ -1,0 +1,181 @@
+.app{
+    width: 80%;
+    margin: auto;
+    background-color: #f3f4f5;
+    padding: 2%;
+    font-family: sans-serif;
+}
+
+.reviewStar{
+    top: 3px;
+    display: inline-block;
+}
+
+.reviewDate{
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+}
+
+.starInline{
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
+.lableStarInline{
+    margin-right: 3%;
+    display:inline-block;
+}
+
+.avgRateStars{
+    display: inline-block;
+    position: relative;
+    top: 8px;
+}
+
+.ratingTable{
+    display: inline-block;
+    padding-right: 20%;
+    border-right: solid 1px;
+    border-right-color: lightgray;
+    margin-left:3%;
+    width:25%
+}
+
+.recoDiv{
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    padding-left: 3%;
+}
+
+#writeReviewBtn{
+    height: 45px;
+    border-radius: 5px;
+    background-color: #4a5fad;
+    color: white;
+    width: 70%;
+    margin-top: 4%;
+}
+
+.reviewHeading{
+    width: 24%;
+    margin-left: 3%;
+}
+
+.modalHeading{
+    background-color: aliceblue;
+    position: relative;
+    padding: 12px;
+    font-weight: bold;
+    width: 90%;
+    margin: auto;
+}
+
+.modalForm{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid lightblue;
+}
+
+.modalSubmit{
+    height: 40px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 4px;
+}
+
+.contentDiv{
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.modalInput{
+    float:right;
+    margin-right:55%;
+}
+
+.textArea{
+    float:right;
+    margin-right:22%
+}
+
+@media only screen and (max-width: 500px) {
+    .ratingTable {
+        width:100%
+    }
+    .reviewHeading {
+        width: 100%;
+    }
+    .recoDiv {
+        bottom:10px;
+    }
+    .modal-content {
+        width:88% !important;
+    }
+    .modalHeading {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ratingTable {
+        width:100%
+    }
+    .reviewHeading {
+        width: 100%;
+    }
+    .recoDiv {
+        bottom:10px;
+    }
+    #writeReviewBtn {
+        width: 50%;
+    }
+    .modal-content {
+        width:88% !important;
+    }
+    .modalHeading {
+        width:80%;
+    }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
